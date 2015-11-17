@@ -1,1 +1,21 @@
 Privet!
+git init
+git remote add origin https://github.com/irymaruk/pyTestsDHCP.git
+git add .
+git status
+git commit -m "delete src folder"
+
+git rm -r src/
+
+git push origin master
+
+
+gitignore:
+.idea/
+.svn/
+*.log
+*.pyc
+docs/build/
+
+
+git config --global credential.helper "cache --timeout=3600"
